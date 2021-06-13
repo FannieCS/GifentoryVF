@@ -1,0 +1,4 @@
+This repository contains a POC of a web application developped for a course project on web and application developpement : Gifentory.
+It's purpose is to store the gifs the user frequently send in order to be able to use them easily from one discussion plateform to another. It's main feature is the possibility to click on the gif and get its ready-to-use URL directly in the user's clipboard.
+
+The design is minimal and functionalities implemanted are just enough to run the application. It is run on Node.js. Perspectives and improvements are detailed (in French) in the presentation (in reveal.js).

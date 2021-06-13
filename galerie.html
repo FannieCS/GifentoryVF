@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Gifentory - Galerie</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="galerie-style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Galerie des gifs</h1>
+    </header>
+
+    <nav>
+      <div id="nav"></div>
+    </nav>
+
+    <main>
+      <form action="" method="get">
+      <input type="text" id="recherche" name="recherche" placeholder="Rechercher...">
+      </form>
+      <form action="/tri-affich-get" method="get">
+        <label for="tri-select">Trier par :</label>
+        <select name="tri" id="tri-select">
+            <option value="">--Choisis une option--</option>
+            <option value="plusRecent">Du plus nouveau</option>
+            <option value="plusAncien">Du plus ancien</option>
+            <option value="plusUtilise">Du plus utilisé</option>
+            <option value="moinsUtilise">Du moins utilisé</option>
+            <option value="usageRecent">De l'usage le plus récent</option>
+            <option value="usageAncien">De l'usage le plus ancien</option>
+        </select>
+        <label for="afficher-select">Affichage :</label>
+        <select name="affichage" id="afficher-select">
+            <option value="">--Choisis une option--</option>
+            <option value="grand">Grande icone</option>
+            <option value="moyen">Icone moyenne</option>
+            <option value="liste">Liste détaillée</option>
+        </select>
+        <input type="submit" value="Trier et afficher !">
+      </form>
+
+      <div id="galerie" class="center"></div>
+      
+
+
+    </main>
+    
+    <footer>
+
+    </footer>
+    <script type="text/javascript" src="galerie.js"></script>
+
+  </body>
+</html>
+
+

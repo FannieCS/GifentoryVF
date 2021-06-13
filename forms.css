@@ -1,0 +1,43 @@
+input[type="submit"] {
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  font-size: 14pt;
+  padding: 10px 60px 10px 60px;
+  border: 3px solid #000;
+  border-radius: 30px;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus {
+  background-color: black;
+  color: white;
+  transition: .6s;
+}
+
+main {
+  width: 65%;
+}
+
+.boxed-content {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+input[type="text"], input[type="password"] {
+  font-size: 14pt;
+  padding: 5px 5px 5px 5px;
+  width: 75%;
+  margin-bottom: 30px;
+}
+
+input[type="text"]:focus, input[type="text"]:focus-visible,
+input[type="password"]:focus, input[type="password"]:focus-visible {
+  background-color: black;
+  color: white;
+  transition: .6s;
+  border: none;
+}
+
+label {
+  font-size: 18pt;
+}

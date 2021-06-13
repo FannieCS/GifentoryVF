@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Gifentory - Ajouter de nouveaux gifs</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="forms.css">
+    <script type="text/javascript" src="functionality.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Ajouter de nouveaux gifs</h1>
+    </header>
+    <nav>
+      <div id="nav"></div>
+    </nav>
+    
+    <main>
+      <div class="boxed-content">
+      <form action="/add" method="get">
+        <label for="link">Lien du gif:</label><br>
+        <input type="text" id="link" name="link" placeholder="https://..."><br>
+
+        <label for="tag">Tags (espacer chaque tag):</label><br>
+        <input type="text" id="tag" name="tag" placeholder="rire angoisse ..."><br>
+
+
+        <label for="tag">Mot de passe è_é:</label><br>
+        <input type="password" id="pwd" name="pwd" placeholder=***"><br>
+
+        <input class="center" type="submit" value="Ajouter !">
+      </form>
+      </div>
+    </main>
+
+    <footer>
+    </footer>
+  </body>
+</html>
+
+
